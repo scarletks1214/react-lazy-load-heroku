@@ -10,15 +10,13 @@ class Application extends Component {
         Scroll to load images.
         <div className="filler" />
         <div className="filler" />
-        <div className="filler" />
-        <div className="filler" />
-        <div className="filler" />
         <LazyLoad height={732} offsetVertical={10}>
           <img
             src='http://apod.nasa.gov/apod/image/1502/HDR_MVMQ20Feb2015ouellet1024.jpg'
             alt='first one'
             style={{width:'100vw'}} />
         </LazyLoad>
+        <div className="filler" />
         <div className="filler" />
         <LazyLoad height={683} offsetVertical={10}>
           <img
@@ -27,8 +25,6 @@ class Application extends Component {
         </LazyLoad>
         <div className="filler" />
         <div className="ScrollableContainer">
-          <div className="filler" />
-          <div className="filler" />
           <div className="filler" />
           <LazyLoad height={480}>
             <img
@@ -51,7 +47,6 @@ class Application extends Component {
             src='http://apod.nasa.gov/apod/image/1502/ToadSky_Lane_1080_annotated.jpg'
             alt='fifth one' />
         </LazyLoad>
-        <div className="filler" />
       </div>
     );
   }
